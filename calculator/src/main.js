@@ -1,3 +1,3 @@
-document.getElementById("button").onclick = function() {
-    alert("クリックしたよ");
-};
+var myfunc = function () {
+    console.log("Hello world!");
+  }
