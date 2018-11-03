@@ -1,65 +1,62 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="src/Calculator.css">
         <script type="text/javascript" src="src/main.js"></script>
         <title>電卓のサンプル</title>
-    </head>
-
-    
+    </head>    
     <body>
-        <form>
-            <table border=1>
-                <tr>
-                    <td colspan="4"><span id="ekisyou1"></span></td>
-                    <td colspan="4"><span id="ekisyou2"></span></td>
-                </tr>
+        <table border=1>
+            <tr>
+                <td colspan="4"><span id="ekisyou1"></span></td>
+            </tr>
+            <tr>
+                <td colspan="4"><span id="ekisyou2"></span></td>
+            </tr>
 
-                <tr>
-                    <td><button calss="botton" onclick="myfunc()">%</button></td>
-                    <td><button calss="botton" onclick="">✓</button></td>
-                    <td><button calss="botton" onclick="">X²</button></td>
-                    <td><button calss="botton" onclick="">1/x</button></td>
-                </tr>
+            <tr>
+                <td><button type="botton" onclick="clickButtton('%')">%</button></td>
+                <td><button type="botton" onclick="clickButtton('✓')">✓</button></td>
+                <td><button type="botton" onclick="clickButtton('X²')">X²</button></td>
+                <td><button type="botton" onclick="clickButtton('1/x')">1/x</button></td>
+            </tr>
 
-                <tr>
-                    <td><button calss="botton" onclick="">CE</button></td>
-                    <td><button calss="botton" onclick="">C</button></td>
-                    <td><button calss="botton" onclick="">🔙</button></td>
-                    <td><button calss="botton" onclick="">÷</button></td>
-                </tr>
+            <tr>
+                <td><button type="botton" onclick="clickButtton('CE')">CE</button></td>
+                <td><button type="botton" onclick="clickButtton('C')">C</button></td>
+                <td><button type="botton" onclick="clickButtton('🔙')">🔙</button></td>
+                <td><button type="botton" onclick="clickButtton('÷')">÷</button></td>
+            </tr>
 
-                <tr>
-                    <td><button calss="botton" onclick="">7</button></td>
-                    <td><button calss="botton" onclick="">8</button></td>
-                    <td><button calss="botton" onclick="">9</button></td>
-                    <td><button calss="botton" onclick="">×</button></td>
-                </tr>
+            <tr>
+                <td><button type="botton" onclick="clickButtton('7')">7</button></td>
+                <td><button type="botton" onclick="clickButtton('8')">8</button></td>
+                <td><button type="botton" onclick="clickButtton('9')">9</button></td>
+                <td><button type="botton" onclick="clickButtton('×')">×</button></td>
+            </tr>
 
-                <tr>
-                    <td><button calss="botton" onclick="">4</button></td>
-                    <td><button calss="botton" onclick="">5</button></td>
-                    <td><button calss="botton" onclick="">6</button></td>
-                    <td><button calss="botton" onclick="">-</button></td>
-                </tr>
+            <tr>
+                <td><button type="botton" onclick="clickButtton('4')">4</button></td>
+                <td><button type="botton" onclick="clickButtton('5')">5</button></td>
+                <td><button type="botton" onclick="clickButtton('6')">6</button></td>
+                <td><button type="botton" onclick="clickButtton('-')">-</button></td>
+            </tr>
 
-                <tr>
-                    <td><button calss="botton" onclick="">1</button></td>
-                    <td><button calss="botton" onclick="">2</button></td>
-                    <td><button calss="botton" onclick="">3</button></td>
-                    <td><button calss="botton" onclick="">+</button></td>
-                </tr>
+            <tr>
+                <td><button type="botton" onclick="clickButtton('1')">1</button></td>
+                <td><button type="botton" onclick="clickButtton('2')">2</button></td>
+                <td><button type="botton" onclick="clickButtton('3')">3</button></td>
+                <td><button type="botton" onclick="clickButtton('+')">+</button></td>
+            </tr>
 
-                <tr>
-                    <td><button calss="botton" onclick="">±</button></td>
-                    <td><button calss="botton" onclick="">0</button></td>
-                    <td><button calss="botton" onclick="">.</button></td>
-                    <td><button calss="botton" onclick="">＝</button></td>
-                </tr>
-                
-            </table>
-        </form>
+            <tr>
+                <td><button type="botton" onclick="clickButtton('±')">±</button></td>
+                <td><button type="botton" onclick="clickButtton('0')">0</button></td>
+                <td><button type="botton" onclick="clickButtton('.')">.</button></td>
+                <td><button type="botton" onclick="clickButtton('＝')">＝</button></td>
+            </tr>
+            
+        </table>
     </body> 
 </html>
